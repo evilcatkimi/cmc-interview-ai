@@ -4,7 +4,7 @@ export default function Header({ candidate, elapsed, live, stageLabel }) {
   return (
     <header className="header">
       <div className="brand">
-        <img src="/cmc-logo.jpeg" alt="CMC Global" />
+        <img src={`${import.meta.env.BASE_URL}cmc-logo.jpeg`} alt="CMC Global" />
         <div>
           <div className="brand-title">Interview Copilot</div>
           <div className="brand-sub">CMC GLOBAL · TALENT INTELLIGENCE</div>
